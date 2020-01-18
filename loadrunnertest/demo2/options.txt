@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\test\loadrunnertest\demo2
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ee:\test\loadrunnertest\demo2\\logfile.log
+e:\test\loadrunnertest\demo2\\combined_demo2.c
+e:\test\loadrunnertest\demo2\\pre_cci.c

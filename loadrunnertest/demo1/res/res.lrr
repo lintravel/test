@@ -1,0 +1,32 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=11.0.0.0
+Path=C:\Program Files (x86)\HP\LoadRunner\scenario\Scenario1.lrs
+Subject=
+Result_file=E:\test\loadrunnertest\demo1\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-28800
+Start_time=1567322503
+Daylight_Bias=0
+Stop_time=1567322833
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Default Schedule
+Mode=Scenario Scheduling
+Scenario Duration=Until Completion
+Load Behavior=Property
+[Scripts]
+demo1=E:\test\loadrunnertest\demo1\demo1.usr
+[Scripts_types]
+demo1=Multi+QTWeb

@@ -1,0 +1,17 @@
+[DATA_POINT]
+1="HTTP_200"
+2="tcp_connection_count"
+3="tcp_connect"
+4="tcp_shutdown"
+5="mic_recv"
+[END_TRANSACTION]
+1="http://132.232.44.158:8080/morning/getAllGoods"
+2="web_custom_request_Action_5"
+3="http://132.232.44.158:8080/morning/user/userLogin"
+4="login_Action_16"
+5="http://132.232.44.158:5000/userLogin/"
+6="login_Action_30"
+7="login_Action2_19"
+8="login"
+9="http://132.232.44.158:5000/userLogout/"
+10="logout_Action2_34"

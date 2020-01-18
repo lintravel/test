@@ -1,0 +1,6 @@
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=8BF9C8E6A167D91A5BC51857327C9136; Path=/morning; HttpOnly
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 09 Oct 2019 12:11:25 GMT
+

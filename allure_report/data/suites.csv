@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Aug 18 21:51:52 CST 2019","Sun Aug 18 21:51:55 CST 2019","2533","pytestpro","test_demo2","","","","test_02_morning_sx",""
+"passed","Tue Sep 03 20:05:52 CST 2019","Tue Sep 03 20:05:52 CST 2019","0","pytestpro","test_pytestdemo1","","","","test_istrue",""
+"broken","Sun Aug 18 21:25:07 CST 2019","Sun Aug 18 21:25:10 CST 2019","2529","pytestpro","test_demo3","TestCasesDemo1","","","test_01_morning_login",""
+"passed","Tue Sep 03 20:05:52 CST 2019","Tue Sep 03 20:05:52 CST 2019","1","pytestpro","test_pytestdemo1","","","","test_add",""
+"broken","Sun Aug 18 21:51:49 CST 2019","Sun Aug 18 21:51:52 CST 2019","2857","pytestpro","test_demo2","","","","test_01_baidusearch",""
+"passed","Tue Sep 03 20:05:52 CST 2019","Tue Sep 03 20:05:52 CST 2019","0","pytestpro","test_pytestdemo1","","","","test_error",""

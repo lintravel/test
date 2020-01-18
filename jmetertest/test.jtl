@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1567260292495,384,01登录,200,OK,demo1 1-1,text,true,,765,246,1,1,384,0,209
+1567260292922,96,02收藏文章,200,OK,demo1 1-1,text,false,"Test failed: text expected to contain /""code"": 200,/",245,684,1,1,96,0,0

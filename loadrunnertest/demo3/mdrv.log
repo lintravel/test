@@ -1,0 +1,20 @@
+Virtual User Script started at : 2019-10-11 22:29:39
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Notify: Transaction "send" started.
+Action.c(5): Web service call "getSupportCity_102" started
+Action.c(5): Using working copy of the WSDL file ""
+Action.c(5): Error: The WSDL file "" has an error. (Working copy for / does not exist.)
+Action.c(5): Error: Web service call "getSupportCity_102" execution failed
+Action.c(5): Notify: Transaction "send" ended with "Fail" status (Duration: 0.3345 Wasted Time: 0.0362).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

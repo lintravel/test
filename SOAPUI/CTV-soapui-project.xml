@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="ea2fac7a-0469-4605-a5ab-e793112cd98b" activeEnvironment="Default" name="CTV" resourceRoot="" soapui-version="5.2.1" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="e144aa00-1a41-4e61-ad6b-c115f7984d55" wsaVersion="NONE" name="ChinaTVprogramWebServiceSoap12" type="wsdl" bindingName="{http://WebXml.com.cn/}ChinaTVprogramWebServiceSoap12" soapVersion="1_2" anonymous="optional" definition="http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint></con:endpoints><con:operation id="043e7703-7ab2-4819-8005-17c6791e26a2" isOneWay="false" action="http://WebXml.com.cn/getAreaDataSet" name="getAreaDataSet" bindingOperationName="getAreaDataSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c5fd5b4c-ed5d-4cf9-a14e-c42e14a73d91" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getAreaDataSet/>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getAreaDataSetRequest"/></con:call></con:operation><con:operation id="9e7ffbf9-248b-4a27-b1c6-4ccfe2734b5b" isOneWay="false" action="http://WebXml.com.cn/getAreaString" name="getAreaString" bindingOperationName="getAreaString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="89233fb2-cc38-4985-bf51-99b73b98c6ca" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getAreaString/>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getAreaStringRequest"/></con:call></con:operation><con:operation id="a42e8506-c93b-4bc7-a4a8-b48619e91054" isOneWay="false" action="http://WebXml.com.cn/getTVchannelDataSet" name="getTVchannelDataSet" bindingOperationName="getTVchannelDataSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d008c694-2944-4484-b721-707cfd5e3c1a" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getTVchannelDataSet>\r
+         <web:theTVstationID>?</web:theTVstationID>\r
+      </web:getTVchannelDataSet>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getTVchannelDataSetRequest"/></con:call></con:operation><con:operation id="4f382eaa-88bf-46c2-96da-942e1dff8d9e" isOneWay="false" action="http://WebXml.com.cn/getTVchannelString" name="getTVchannelString" bindingOperationName="getTVchannelString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="1919eb43-715c-42b8-958d-0c2d071decad" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getTVchannelString>\r
+         <web:theTVstationID>?</web:theTVstationID>\r
+      </web:getTVchannelString>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getTVchannelStringRequest"/></con:call></con:operation><con:operation id="5bd55323-eeb0-4f95-a22a-b1e359ef2fde" isOneWay="false" action="http://WebXml.com.cn/getTVprogramDateSet" name="getTVprogramDateSet" bindingOperationName="getTVprogramDateSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="cb04ee82-7cf7-44f7-9195-551f5b2943ff" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getTVprogramDateSet>\r
+         <web:theTVchannelID>?</web:theTVchannelID>\r
+         <!--Optional:-->\r
+         <web:theDate>?</web:theDate>\r
+         <!--Optional:-->\r
+         <web:userID>?</web:userID>\r
+      </web:getTVprogramDateSet>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getTVprogramDateSetRequest"/></con:call></con:operation><con:operation id="49ad87b4-3afb-4b84-8396-9d4a347c92d9" isOneWay="false" action="http://WebXml.com.cn/getTVprogramString" name="getTVprogramString" bindingOperationName="getTVprogramString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="13e36fff-ad38-4fe8-982c-75961be1f801" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getTVprogramString>\r
+         <web:theTVchannelID>?</web:theTVchannelID>\r
+         <!--Optional:-->\r
+         <web:theDate>?</web:theDate>\r
+         <!--Optional:-->\r
+         <web:userID>?</web:userID>\r
+      </web:getTVprogramString>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getTVprogramStringRequest"/></con:call></con:operation><con:operation id="f046fecf-5cb3-4a33-a895-13a463972b92" isOneWay="false" action="http://WebXml.com.cn/getTVstationDataSet" name="getTVstationDataSet" bindingOperationName="getTVstationDataSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="59c4d89b-e3a9-47b7-9040-fcc1c1d426f4" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getTVstationDataSet>\r
+         <web:theAreaID>?</web:theAreaID>\r
+      </web:getTVstationDataSet>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getTVstationDataSetRequest"/></con:call></con:operation><con:operation id="4e79f8e8-1ff8-4300-8f4f-9c40508cd6ca" isOneWay="false" action="http://WebXml.com.cn/getTVstationString" name="getTVstationString" bindingOperationName="getTVstationString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="bc1900ce-ace6-4428-9441-e6a02ac0e6e5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://WebXml.com.cn/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:getTVstationString>\r
+         <web:theAreaID>?</web:theAreaID>\r
+      </web:getTVstationString>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/ChinaTVprogramWebServiceSoap/getTVstationStringRequest"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="95991fe0-6692-4109-ba3d-88ab15085a28" wsaVersion="NONE" name="ChinaTVprogramWebServiceSoap" type="wsdl" bindingName="{http://WebXml.com.cn/}ChinaTVprogramWebServiceSoap" soapVersion="1_1" anonymous="optional" definition="http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx?wsdl"><con:part><con:url>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx?wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://WebXml.com.cn/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://WebXml.com.cn/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation><![CDATA[<a href="http://www.webxml.com.cn/" target="_blank">WebXml.com.cn</a> <strong>中国电视节目预告 Web 服务</strong>，数据准确可靠，提供全国近800个电视台一个星期节目预告数据。<a href="http://www.webxml.com.cn/" target="_blank">WebXml.com.cn</a> 和/或其各供应商不为本页面提供信息的错误、残缺、延迟或因依靠此信息所采取的任何行动负责。</br>中国电视节目预告Web Services请不要用于任何商业目的，若有需要请<a href="http://www.webxml.com.cn/zh_cn/contact_us.aspx" target="_blank">联系我们</a>，欢迎技术交流。 QQ：8409035<br /><strong>使用本站 WEB 服务请注明或链接本站：http://www.webxml.com.cn/ 感谢大家的支持</strong>！<br /><br />&nbsp;]]]]>><![CDATA[</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://WebXml.com.cn/">
+      <s:element name="getAreaDataSet">
+        <s:complexType/>
+      </s:element>
+      <s:element name="getAreaDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAreaDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema"/>
+                  <s:any/>
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAreaString">
+        <s:complexType/>
+      </s:element>
+      <s:element name="getAreaStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAreaStringResult" type="tns:ArrayOfString"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string"/>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getTVstationDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="theAreaID" type="s:int"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVstationDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTVstationDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema"/>
+                  <s:any/>
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVstationString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="theAreaID" type="s:int"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVstationStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTVstationStringResult" type="tns:ArrayOfString"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVchannelDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="theTVstationID" type="s:int"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVchannelDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTVchannelDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema"/>
+                  <s:any/>
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVchannelString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="theTVstationID" type="s:int"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVchannelStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTVchannelStringResult" type="tns:ArrayOfString"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVprogramDateSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="theTVchannelID" type="s:int"/>
+            <s:element minOccurs="0" maxOccurs="1" name="theDate" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVprogramDateSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTVprogramDateSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema"/>
+                  <s:any/>
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVprogramString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="theTVchannelID" type="s:int"/>
+            <s:element minOccurs="0" maxOccurs="1" name="theDate" type="s:string"/>
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTVprogramStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTVprogramStringResult" type="tns:ArrayOfString"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema"/>
+            <s:any/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getAreaDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:getAreaDataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getAreaDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:getAreaDataSetResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getAreaStringSoapIn">
+    <wsdl:part name="parameters" element="tns:getAreaString"/>
+  </wsdl:message>
+  <wsdl:message name="getAreaStringSoapOut">
+    <wsdl:part name="parameters" element="tns:getAreaStringResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:getTVstationDataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:getTVstationDataSetResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationStringSoapIn">
+    <wsdl:part name="parameters" element="tns:getTVstationString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationStringSoapOut">
+    <wsdl:part name="parameters" element="tns:getTVstationStringResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:getTVchannelDataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:getTVchannelDataSetResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelStringSoapIn">
+    <wsdl:part name="parameters" element="tns:getTVchannelString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelStringSoapOut">
+    <wsdl:part name="parameters" element="tns:getTVchannelStringResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramDateSetSoapIn">
+    <wsdl:part name="parameters" element="tns:getTVprogramDateSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramDateSetSoapOut">
+    <wsdl:part name="parameters" element="tns:getTVprogramDateSetResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramStringSoapIn">
+    <wsdl:part name="parameters" element="tns:getTVprogramString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramStringSoapOut">
+    <wsdl:part name="parameters" element="tns:getTVprogramStringResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getAreaDataSetHttpGetIn"/>
+  <wsdl:message name="getAreaDataSetHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getAreaStringHttpGetIn"/>
+  <wsdl:message name="getAreaStringHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationDataSetHttpGetIn">
+    <wsdl:part name="theAreaID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationDataSetHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationStringHttpGetIn">
+    <wsdl:part name="theAreaID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationStringHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelDataSetHttpGetIn">
+    <wsdl:part name="theTVstationID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelDataSetHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelStringHttpGetIn">
+    <wsdl:part name="theTVstationID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelStringHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramDateSetHttpGetIn">
+    <wsdl:part name="theTVchannelID" type="s:string"/>
+    <wsdl:part name="theDate" type="s:string"/>
+    <wsdl:part name="userID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramDateSetHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramStringHttpGetIn">
+    <wsdl:part name="theTVchannelID" type="s:string"/>
+    <wsdl:part name="theDate" type="s:string"/>
+    <wsdl:part name="userID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramStringHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:message name="getAreaDataSetHttpPostIn"/>
+  <wsdl:message name="getAreaDataSetHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getAreaStringHttpPostIn"/>
+  <wsdl:message name="getAreaStringHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationDataSetHttpPostIn">
+    <wsdl:part name="theAreaID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationDataSetHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationStringHttpPostIn">
+    <wsdl:part name="theAreaID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVstationStringHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelDataSetHttpPostIn">
+    <wsdl:part name="theTVstationID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelDataSetHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelStringHttpPostIn">
+    <wsdl:part name="theTVstationID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVchannelStringHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramDateSetHttpPostIn">
+    <wsdl:part name="theTVchannelID" type="s:string"/>
+    <wsdl:part name="theDate" type="s:string"/>
+    <wsdl:part name="userID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramDateSetHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramStringHttpPostIn">
+    <wsdl:part name="theTVchannelID" type="s:string"/>
+    <wsdl:part name="theDate" type="s:string"/>
+    <wsdl:part name="userID" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="getTVprogramStringHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString"/>
+  </wsdl:message>
+  <wsdl:portType name="ChinaTVprogramWebServiceSoap">
+    <wsdl:operation name="getAreaDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第一步] 获得支持的省市（地区）和分类电视列表 DataSet</h3><p>输入参数：无；返回数据：DataSet，结构为：Item(areaID)=省市和分类电视ID，Ietm(Area)=省市和分类电视名称，Item(Zone)=所属地区。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getAreaDataSetSoapIn"/>
+      <wsdl:output message="tns:getAreaDataSetSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getAreaString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第一步] 获得支持的省市（地区）和分类电视名称 String()</h3><p>输入参数：无；返回数据：一个一维字符串数组 String()，结构为：省市和分类电视ID@省市和分类电视名称@所属地区。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getAreaStringSoapIn"/>
+      <wsdl:output message="tns:getAreaStringSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第二步] 通过省市ID或分类电视ID获得电视台列表 DataSet</h3><p>输入参数：theAreaID = 省市ID或分类电视ID（Integer）；返回数据：DataSet，结构为：Item(tvStationID)=电视台ID，Ietm(tvStationName)=电视台名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVstationDataSetSoapIn"/>
+      <wsdl:output message="tns:getTVstationDataSetSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第二步] 通过省市ID或分类电视ID获得电视台名称 String()</h3><p>输入参数：theAreaID = 省市ID或分类电视ID（Integer）；返回数据：一个一维字符串数组 String()，结构为：电视台ID@电视台名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVstationStringSoapIn"/>
+      <wsdl:output message="tns:getTVstationStringSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第三步] 通过电视台ID获得该电视台频道列表 DataSet</h3><p>输入参数：theTVstationID = 电视台ID（Integer）；返回数据：DataSet，结构为：Item(tvChannelID)=频道ID，Ietm(tvChannel)=频道名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVchannelDataSetSoapIn"/>
+      <wsdl:output message="tns:getTVchannelDataSetSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第三步] 通过电视台ID获得该电视台频道名称 String()</h3><p>输入参数：theTVstationID = 电视台ID（Integer）；返回数据：一个一维字符串数组 String()，结构为：频道ID@频道名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVchannelStringSoapIn"/>
+      <wsdl:output message="tns:getTVchannelStringSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramDateSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第四步] 通过频道ID获得该频道节目列表 DataSet</h3><p>输入参数：theTVchannelID = 频道ID（Integer），theDate=日期（String 格式：yyyy-MM-dd，如：2007-07-02，空则默认当天），userID=商业用户ID（String 免费用户不需要）；返回数据：DataSet，结构为：Item(playTime)=播出时间，Ietm(meridiem)=PM或AM，Ietm(tvProgram)=节目信息，Item(tvStationInfo)=电视台信息。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVprogramDateSetSoapIn"/>
+      <wsdl:output message="tns:getTVprogramDateSetSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第四步] 通过频道ID获得该频道节目 String()</h3><p>输入参数：theTVchannelID = 频道ID（Integer），theDate=日期（String 格式：yyyy-MM-dd，如：2007-07-02，空则默认当天），userID=商业用户ID（String 免费用户不需要）；返回数据：一个一维字符串数组 String()，结构为：播出时间(AM or PM)@@@节目信息@@@电视台信息。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVprogramStringSoapIn"/>
+      <wsdl:output message="tns:getTVprogramStringSoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ChinaTVprogramWebServiceHttpGet">
+    <wsdl:operation name="getAreaDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第一步] 获得支持的省市（地区）和分类电视列表 DataSet</h3><p>输入参数：无；返回数据：DataSet，结构为：Item(areaID)=省市和分类电视ID，Ietm(Area)=省市和分类电视名称，Item(Zone)=所属地区。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getAreaDataSetHttpGetIn"/>
+      <wsdl:output message="tns:getAreaDataSetHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getAreaString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第一步] 获得支持的省市（地区）和分类电视名称 String()</h3><p>输入参数：无；返回数据：一个一维字符串数组 String()，结构为：省市和分类电视ID@省市和分类电视名称@所属地区。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getAreaStringHttpGetIn"/>
+      <wsdl:output message="tns:getAreaStringHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第二步] 通过省市ID或分类电视ID获得电视台列表 DataSet</h3><p>输入参数：theAreaID = 省市ID或分类电视ID（Integer）；返回数据：DataSet，结构为：Item(tvStationID)=电视台ID，Ietm(tvStationName)=电视台名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVstationDataSetHttpGetIn"/>
+      <wsdl:output message="tns:getTVstationDataSetHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第二步] 通过省市ID或分类电视ID获得电视台名称 String()</h3><p>输入参数：theAreaID = 省市ID或分类电视ID（Integer）；返回数据：一个一维字符串数组 String()，结构为：电视台ID@电视台名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVstationStringHttpGetIn"/>
+      <wsdl:output message="tns:getTVstationStringHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第三步] 通过电视台ID获得该电视台频道列表 DataSet</h3><p>输入参数：theTVstationID = 电视台ID（Integer）；返回数据：DataSet，结构为：Item(tvChannelID)=频道ID，Ietm(tvChannel)=频道名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVchannelDataSetHttpGetIn"/>
+      <wsdl:output message="tns:getTVchannelDataSetHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第三步] 通过电视台ID获得该电视台频道名称 String()</h3><p>输入参数：theTVstationID = 电视台ID（Integer）；返回数据：一个一维字符串数组 String()，结构为：频道ID@频道名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVchannelStringHttpGetIn"/>
+      <wsdl:output message="tns:getTVchannelStringHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramDateSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第四步] 通过频道ID获得该频道节目列表 DataSet</h3><p>输入参数：theTVchannelID = 频道ID（Integer），theDate=日期（String 格式：yyyy-MM-dd，如：2007-07-02，空则默认当天），userID=商业用户ID（String 免费用户不需要）；返回数据：DataSet，结构为：Item(playTime)=播出时间，Ietm(meridiem)=PM或AM，Ietm(tvProgram)=节目信息，Item(tvStationInfo)=电视台信息。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVprogramDateSetHttpGetIn"/>
+      <wsdl:output message="tns:getTVprogramDateSetHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第四步] 通过频道ID获得该频道节目 String()</h3><p>输入参数：theTVchannelID = 频道ID（Integer），theDate=日期（String 格式：yyyy-MM-dd，如：2007-07-02，空则默认当天），userID=商业用户ID（String 免费用户不需要）；返回数据：一个一维字符串数组 String()，结构为：播出时间(AM or PM)@@@节目信息@@@电视台信息。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVprogramStringHttpGetIn"/>
+      <wsdl:output message="tns:getTVprogramStringHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ChinaTVprogramWebServiceHttpPost">
+    <wsdl:operation name="getAreaDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第一步] 获得支持的省市（地区）和分类电视列表 DataSet</h3><p>输入参数：无；返回数据：DataSet，结构为：Item(areaID)=省市和分类电视ID，Ietm(Area)=省市和分类电视名称，Item(Zone)=所属地区。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getAreaDataSetHttpPostIn"/>
+      <wsdl:output message="tns:getAreaDataSetHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getAreaString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第一步] 获得支持的省市（地区）和分类电视名称 String()</h3><p>输入参数：无；返回数据：一个一维字符串数组 String()，结构为：省市和分类电视ID@省市和分类电视名称@所属地区。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getAreaStringHttpPostIn"/>
+      <wsdl:output message="tns:getAreaStringHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第二步] 通过省市ID或分类电视ID获得电视台列表 DataSet</h3><p>输入参数：theAreaID = 省市ID或分类电视ID（Integer）；返回数据：DataSet，结构为：Item(tvStationID)=电视台ID，Ietm(tvStationName)=电视台名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVstationDataSetHttpPostIn"/>
+      <wsdl:output message="tns:getTVstationDataSetHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第二步] 通过省市ID或分类电视ID获得电视台名称 String()</h3><p>输入参数：theAreaID = 省市ID或分类电视ID（Integer）；返回数据：一个一维字符串数组 String()，结构为：电视台ID@电视台名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVstationStringHttpPostIn"/>
+      <wsdl:output message="tns:getTVstationStringHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelDataSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第三步] 通过电视台ID获得该电视台频道列表 DataSet</h3><p>输入参数：theTVstationID = 电视台ID（Integer）；返回数据：DataSet，结构为：Item(tvChannelID)=频道ID，Ietm(tvChannel)=频道名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVchannelDataSetHttpPostIn"/>
+      <wsdl:output message="tns:getTVchannelDataSetHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第三步] 通过电视台ID获得该电视台频道名称 String()</h3><p>输入参数：theTVstationID = 电视台ID（Integer）；返回数据：一个一维字符串数组 String()，结构为：频道ID@频道名称。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVchannelStringHttpPostIn"/>
+      <wsdl:output message="tns:getTVchannelStringHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramDateSet">
+      <wsdl:documentation><![CDATA[<br /><h3>[第四步] 通过频道ID获得该频道节目列表 DataSet</h3><p>输入参数：theTVchannelID = 频道ID（Integer），theDate=日期（String 格式：yyyy-MM-dd，如：2007-07-02，空则默认当天），userID=商业用户ID（String 免费用户不需要）；返回数据：DataSet，结构为：Item(playTime)=播出时间，Ietm(meridiem)=PM或AM，Ietm(tvProgram)=节目信息，Item(tvStationInfo)=电视台信息。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVprogramDateSetHttpPostIn"/>
+      <wsdl:output message="tns:getTVprogramDateSetHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramString">
+      <wsdl:documentation><![CDATA[<br /><h3>[第四步] 通过频道ID获得该频道节目 String()</h3><p>输入参数：theTVchannelID = 频道ID（Integer），theDate=日期（String 格式：yyyy-MM-dd，如：2007-07-02，空则默认当天），userID=商业用户ID（String 免费用户不需要）；返回数据：一个一维字符串数组 String()，结构为：播出时间(AM or PM)@@@节目信息@@@电视台信息。</p><br />]]]]>><![CDATA[</wsdl:documentation>
+      <wsdl:input message="tns:getTVprogramStringHttpPostIn"/>
+      <wsdl:output message="tns:getTVprogramStringHttpPostOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ChinaTVprogramWebServiceSoap" type="tns:ChinaTVprogramWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getAreaDataSet">
+      <soap:operation soapAction="http://WebXml.com.cn/getAreaDataSet" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAreaString">
+      <soap:operation soapAction="http://WebXml.com.cn/getAreaString" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationDataSet">
+      <soap:operation soapAction="http://WebXml.com.cn/getTVstationDataSet" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationString">
+      <soap:operation soapAction="http://WebXml.com.cn/getTVstationString" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelDataSet">
+      <soap:operation soapAction="http://WebXml.com.cn/getTVchannelDataSet" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelString">
+      <soap:operation soapAction="http://WebXml.com.cn/getTVchannelString" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramDateSet">
+      <soap:operation soapAction="http://WebXml.com.cn/getTVprogramDateSet" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramString">
+      <soap:operation soapAction="http://WebXml.com.cn/getTVprogramString" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ChinaTVprogramWebServiceSoap12" type="tns:ChinaTVprogramWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getAreaDataSet">
+      <soap12:operation soapAction="http://WebXml.com.cn/getAreaDataSet" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAreaString">
+      <soap12:operation soapAction="http://WebXml.com.cn/getAreaString" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationDataSet">
+      <soap12:operation soapAction="http://WebXml.com.cn/getTVstationDataSet" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationString">
+      <soap12:operation soapAction="http://WebXml.com.cn/getTVstationString" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelDataSet">
+      <soap12:operation soapAction="http://WebXml.com.cn/getTVchannelDataSet" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelString">
+      <soap12:operation soapAction="http://WebXml.com.cn/getTVchannelString" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramDateSet">
+      <soap12:operation soapAction="http://WebXml.com.cn/getTVprogramDateSet" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramString">
+      <soap12:operation soapAction="http://WebXml.com.cn/getTVprogramString" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ChinaTVprogramWebServiceHttpGet" type="tns:ChinaTVprogramWebServiceHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="getAreaDataSet">
+      <http:operation location="/getAreaDataSet"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAreaString">
+      <http:operation location="/getAreaString"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationDataSet">
+      <http:operation location="/getTVstationDataSet"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationString">
+      <http:operation location="/getTVstationString"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelDataSet">
+      <http:operation location="/getTVchannelDataSet"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelString">
+      <http:operation location="/getTVchannelString"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramDateSet">
+      <http:operation location="/getTVprogramDateSet"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramString">
+      <http:operation location="/getTVprogramString"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ChinaTVprogramWebServiceHttpPost" type="tns:ChinaTVprogramWebServiceHttpPost">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="getAreaDataSet">
+      <http:operation location="/getAreaDataSet"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAreaString">
+      <http:operation location="/getAreaString"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationDataSet">
+      <http:operation location="/getTVstationDataSet"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVstationString">
+      <http:operation location="/getTVstationString"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelDataSet">
+      <http:operation location="/getTVchannelDataSet"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVchannelString">
+      <http:operation location="/getTVchannelString"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramDateSet">
+      <http:operation location="/getTVprogramDateSet"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTVprogramString">
+      <http:operation location="/getTVprogramString"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ChinaTVprogramWebService">
+    <wsdl:documentation><![CDATA[<a href="http://www.webxml.com.cn/" target="_blank">WebXml.com.cn</a> <strong>中国电视节目预告 Web 服务</strong>，数据准确可靠，提供全国近800个电视台一个星期节目预告数据。<a href="http://www.webxml.com.cn/" target="_blank">WebXml.com.cn</a> 和/或其各供应商不为本页面提供信息的错误、残缺、延迟或因依靠此信息所采取的任何行动负责。</br>中国电视节目预告Web Services请不要用于任何商业目的，若有需要请<a href="http://www.webxml.com.cn/zh_cn/contact_us.aspx" target="_blank">联系我们</a>，欢迎技术交流。 QQ：8409035<br /><strong>使用本站 WEB 服务请注明或链接本站：http://www.webxml.com.cn/ 感谢大家的支持</strong>！<br /><br />&nbsp;]]]]>><![CDATA[</wsdl:documentation>
+    <wsdl:port name="ChinaTVprogramWebServiceSoap" binding="tns:ChinaTVprogramWebServiceSoap">
+      <soap:address location="http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ChinaTVprogramWebServiceSoap12" binding="tns:ChinaTVprogramWebServiceSoap12">
+      <soap12:address location="http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ChinaTVprogramWebServiceHttpGet" binding="tns:ChinaTVprogramWebServiceHttpGet">
+      <http:address location="http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ChinaTVprogramWebServiceHttpPost" binding="tns:ChinaTVprogramWebServiceHttpPost">
+      <http:address location="http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint></con:endpoints><con:operation id="800ac0aa-fd34-4698-9429-4a4e736dff38" isOneWay="false" action="http://WebXml.com.cn/getAreaDataSet" name="getAreaDataSet" bindingOperationName="getAreaDataSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="92b55ae6-5034-4b88-be07-b7b16f847e57" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getAreaDataSet/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getAreaDataSet"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="1a9592a1-d704-46aa-9364-42d35c4561a8" isOneWay="false" action="http://WebXml.com.cn/getAreaString" name="getAreaString" bindingOperationName="getAreaString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b2c69e49-7e8e-4c2e-8271-637df34aae0e" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getAreaString/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getAreaString"/></con:call></con:operation><con:operation id="0df0abea-c6be-411e-b39c-3af594141fd3" isOneWay="false" action="http://WebXml.com.cn/getTVchannelDataSet" name="getTVchannelDataSet" bindingOperationName="getTVchannelDataSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e6a8f6d4-a54e-4e74-ae06-760da101acc7" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVchannelDataSet>\r
+         <web:theTVstationID>95</web:theTVstationID>\r
+      </web:getTVchannelDataSet>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVchannelDataSet"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="0a6cd8ba-799b-4d10-bb6b-7f187ad0b331" isOneWay="false" action="http://WebXml.com.cn/getTVchannelString" name="getTVchannelString" bindingOperationName="getTVchannelString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8210fa28-d916-41ee-9265-185978317741" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVchannelString>\r
+         <web:theTVstationID>?</web:theTVstationID>\r
+      </web:getTVchannelString>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVchannelString"/></con:call></con:operation><con:operation id="3299e1ab-eaac-48eb-a7f2-13bdb7c04668" isOneWay="false" action="http://WebXml.com.cn/getTVprogramDateSet" name="getTVprogramDateSet" bindingOperationName="getTVprogramDateSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="52cae9c0-1b09-4f1f-a030-e379235a395e" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVprogramDateSet>\r
+         <web:theTVchannelID>18</web:theTVchannelID>\r
+         <!--Optional:-->\r
+         <web:theDate></web:theDate>\r
+         <!--Optional:-->\r
+         <web:userID></web:userID>\r
+      </web:getTVprogramDateSet>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVprogramDateSet"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="ade733a0-67a7-4012-8450-3404583b6592" isOneWay="false" action="http://WebXml.com.cn/getTVprogramString" name="getTVprogramString" bindingOperationName="getTVprogramString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="63008f4f-d382-42c7-8fb5-23933688f93c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVprogramString>\r
+         <web:theTVchannelID>?</web:theTVchannelID>\r
+         <!--Optional:-->\r
+         <web:theDate>?</web:theDate>\r
+         <!--Optional:-->\r
+         <web:userID>?</web:userID>\r
+      </web:getTVprogramString>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVprogramString"/></con:call></con:operation><con:operation id="a392afe9-dcc2-4931-8077-29a70d55a5db" isOneWay="false" action="http://WebXml.com.cn/getTVstationDataSet" name="getTVstationDataSet" bindingOperationName="getTVstationDataSet" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="adae3129-f2fa-4dd3-8a6d-bae5fa81e606" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVstationDataSet>\r
+         <web:theAreaID>18</web:theAreaID>\r
+      </web:getTVstationDataSet>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVstationDataSet"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="8f2785db-d6bc-4b46-8c0f-f4a9bf92962b" isOneWay="false" action="http://WebXml.com.cn/getTVstationString" name="getTVstationString" bindingOperationName="getTVstationString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2f833aac-f89a-4693-97c3-2e3bc2c824e5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVstationString>\r
+         <web:theAreaID>?</web:theAreaID>\r
+      </web:getTVstationString>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVstationString"/></con:call></con:operation></con:interface><con:testSuite id="73fa33cb-3c78-470b-b275-9e034967c7fa" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="149261ed-321c-43d7-a978-81e1d4002acc" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="request" id="c555b9b9-d331-41ce-80b3-4e4d80dd0b20" name="getAreaDataSet - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ChinaTVprogramWebServiceSoap</con:interface><con:operation>getAreaDataSet</con:operation><con:request name="getAreaDataSet - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="625f7882-7598-4a58-897f-1079ac59d3d0"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getAreaDataSet/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="Simple Contains" id="136ce6e8-6e10-4db7-be9a-c047ce3b42fb" name="Contains"><con:configuration><token>湖南省</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getAreaDataSet"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="767f9041-ca3d-4e80-b15b-3e37629d1a8a"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>CTV</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>getAreaDataSet - Request 1</con:sourceStep><con:sourcePath>declare namespace diffgr="urn:schemas-microsoft-com:xml-diffgram-v1";
+//diffgr:diffgram/Area/AreaList[22]/areaID[1]</con:sourcePath><con:targetType>Request</con:targetType><con:targetStep>getTVstationDataSet - Request 1</con:targetStep><con:targetPath>declare namespace web="http://WebXml.com.cn/";
+//web:getTVstationDataSet/web:theAreaID[1]</con:targetPath><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="request" id="23a9355f-70c2-4c7f-8d7e-c4ab5132c97a" name="getTVstationDataSet - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ChinaTVprogramWebServiceSoap</con:interface><con:operation>getTVstationDataSet</con:operation><con:request name="getTVstationDataSet - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="694f538a-e867-4694-a3da-3467dfa2ae7b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">\r
+   <soap:Body>\r
+      <getAreaDataSetResponse xmlns="http://WebXml.com.cn/">\r
+         <getAreaDataSetResult>\r
+            <xs:schema id="Area" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">\r
+               <xs:element name="Area" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">\r
+                  <xs:complexType>\r
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">\r
+                        <xs:element name="AreaList">\r
+                           <xs:complexType>\r
+                              <xs:sequence>\r
+                                 <xs:element name="areaID" type="xs:int" minOccurs="0"/>\r
+                                 <xs:element name="Area" type="xs:string" minOccurs="0"/>\r
+                                 <xs:element name="Zone" type="xs:string" minOccurs="0"/>\r
+                              </xs:sequence>\r
+                           </xs:complexType>\r
+                        </xs:element>\r
+                     </xs:choice>\r
+                  </xs:complexType>\r
+               </xs:element>\r
+            </xs:schema>\r
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">\r
+               <Area xmlns="">\r
+                  <AreaList diffgr:id="AreaList1" msdata:rowOrder="0">\r
+                     <areaID>-4</areaID>\r
+                     <Area>数字电视</Area>\r
+                     <Zone>数字</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList2" msdata:rowOrder="1">\r
+                     <areaID>-3</areaID>\r
+                     <Area>海外电视</Area>\r
+                     <Zone>海外</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList3" msdata:rowOrder="2">\r
+                     <areaID>-2</areaID>\r
+                     <Area>卫星电视</Area>\r
+                     <Zone>卫星</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList4" msdata:rowOrder="3">\r
+                     <areaID>-1</areaID>\r
+                     <Area>中央电视</Area>\r
+                     <Zone>中央</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList5" msdata:rowOrder="4">\r
+                     <areaID>1</areaID>\r
+                     <Area>北京市</Area>\r
+                     <Zone>华北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList6" msdata:rowOrder="5">\r
+                     <areaID>2</areaID>\r
+                     <Area>天津市</Area>\r
+                     <Zone>华北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList7" msdata:rowOrder="6">\r
+                     <areaID>3</areaID>\r
+                     <Area>河北省</Area>\r
+                     <Zone>华北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList8" msdata:rowOrder="7">\r
+                     <areaID>4</areaID>\r
+                     <Area>山西省</Area>\r
+                     <Zone>华北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList9" msdata:rowOrder="8">\r
+                     <areaID>5</areaID>\r
+                     <Area>内蒙古自治区</Area>\r
+                     <Zone>华北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList10" msdata:rowOrder="9">\r
+                     <areaID>6</areaID>\r
+                     <Area>辽宁省</Area>\r
+                     <Zone>东北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList11" msdata:rowOrder="10">\r
+                     <areaID>7</areaID>\r
+                     <Area>吉林省</Area>\r
+                     <Zone>东北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList12" msdata:rowOrder="11">\r
+                     <areaID>8</areaID>\r
+                     <Area>黑龙江省</Area>\r
+                     <Zone>东北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList13" msdata:rowOrder="12">\r
+                     <areaID>9</areaID>\r
+                     <Area>上海市</Area>\r
+                     <Zone>华东地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList14" msdata:rowOrder="13">\r
+                     <areaID>10</areaID>\r
+                     <Area>江苏省</Area>\r
+                     <Zone>华东地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList15" msdata:rowOrder="14">\r
+                     <areaID>11</areaID>\r
+                     <Area>浙江省</Area>\r
+                     <Zone>华东地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList16" msdata:rowOrder="15">\r
+                     <areaID>12</areaID>\r
+                     <Area>安徽省</Area>\r
+                     <Zone>华中地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList17" msdata:rowOrder="16">\r
+                     <areaID>13</areaID>\r
+                     <Area>福建省</Area>\r
+                     <Zone>华南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList18" msdata:rowOrder="17">\r
+                     <areaID>14</areaID>\r
+                     <Area>江西省</Area>\r
+                     <Zone>华中地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList19" msdata:rowOrder="18">\r
+                     <areaID>15</areaID>\r
+                     <Area>山东省</Area>\r
+                     <Zone>华东地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList20" msdata:rowOrder="19">\r
+                     <areaID>16</areaID>\r
+                     <Area>河南省</Area>\r
+                     <Zone>华中地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList21" msdata:rowOrder="20">\r
+                     <areaID>17</areaID>\r
+                     <Area>湖北省</Area>\r
+                     <Zone>华中地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList22" msdata:rowOrder="21">\r
+                     <areaID>18</areaID>\r
+                     <Area>湖南省</Area>\r
+                     <Zone>华中地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList23" msdata:rowOrder="22">\r
+                     <areaID>19</areaID>\r
+                     <Area>广东省</Area>\r
+                     <Zone>华南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList24" msdata:rowOrder="23">\r
+                     <areaID>20</areaID>\r
+                     <Area>广西壮族自治区</Area>\r
+                     <Zone>华南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList25" msdata:rowOrder="24">\r
+                     <areaID>21</areaID>\r
+                     <Area>海南省</Area>\r
+                     <Zone>华南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList26" msdata:rowOrder="25">\r
+                     <areaID>22</areaID>\r
+                     <Area>重庆市</Area>\r
+                     <Zone>西南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList27" msdata:rowOrder="26">\r
+                     <areaID>23</areaID>\r
+                     <Area>四川省</Area>\r
+                     <Zone>西南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList28" msdata:rowOrder="27">\r
+                     <areaID>24</areaID>\r
+                     <Area>贵州省</Area>\r
+                     <Zone>西南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList29" msdata:rowOrder="28">\r
+                     <areaID>25</areaID>\r
+                     <Area>云南省</Area>\r
+                     <Zone>西南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList30" msdata:rowOrder="29">\r
+                     <areaID>26</areaID>\r
+                     <Area>西藏自治区</Area>\r
+                     <Zone>西南地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList31" msdata:rowOrder="30">\r
+                     <areaID>27</areaID>\r
+                     <Area>陕西省</Area>\r
+                     <Zone>西北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList32" msdata:rowOrder="31">\r
+                     <areaID>28</areaID>\r
+                     <Area>甘肃省</Area>\r
+                     <Zone>西北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList33" msdata:rowOrder="32">\r
+                     <areaID>29</areaID>\r
+                     <Area>青海省</Area>\r
+                     <Zone>西北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList34" msdata:rowOrder="33">\r
+                     <areaID>30</areaID>\r
+                     <Area>宁夏回族自治区</Area>\r
+                     <Zone>西北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList35" msdata:rowOrder="34">\r
+                     <areaID>31</areaID>\r
+                     <Area>新疆维吾尔自治区</Area>\r
+                     <Zone>西北地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList36" msdata:rowOrder="35">\r
+                     <areaID>32</areaID>\r
+                     <Area>香港</Area>\r
+                     <Zone>港澳台地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList37" msdata:rowOrder="36">\r
+                     <areaID>33</areaID>\r
+                     <Area>澳门</Area>\r
+                     <Zone>港澳台地区</Zone>\r
+                  </AreaList>\r
+                  <AreaList diffgr:id="AreaList38" msdata:rowOrder="37">\r
+                     <areaID>34</areaID>\r
+                     <Area>台湾省</Area>\r
+                     <Zone>港澳台地区</Zone>\r
+                  </AreaList>\r
+               </Area>\r
+            </diffgr:diffgram>\r
+         </getAreaDataSetResult>\r
+      </getAreaDataSetResponse>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVstationDataSet"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer 1" id="05a2800e-6cd9-4d60-b542-447482c05b95"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>CTV</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>getTVstationDataSet - Request 1</con:sourceStep><con:sourcePath>declare namespace diffgr="urn:schemas-microsoft-com:xml-diffgram-v1";
+//diffgr:diffgram/Station/TvStation[5]/tvStationID[1]</con:sourcePath><con:targetType>Request</con:targetType><con:targetStep>getTVchannelDataSet - Request 1</con:targetStep><con:targetPath>declare namespace web="http://WebXml.com.cn/";
+//web:getTVchannelDataSet/web:theTVstationID[1]</con:targetPath><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="request" id="e1f32585-764e-4a33-9253-7d46d24805b6" name="getTVchannelDataSet - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ChinaTVprogramWebServiceSoap</con:interface><con:operation>getTVchannelDataSet</con:operation><con:request name="getTVchannelDataSet - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="90053c33-0498-4be2-822b-5a9623820607"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getTVchannelDataSet>
+         <web:theTVstationID/>
+      </web:getTVchannelDataSet>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="39bf5a3f-3813-41df-aec1-e87e3717d152" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVchannelDataSet"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" id="f92806f7-d122-4326-89b5-49c8063adf83" name="getTVprogramDateSet - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ChinaTVprogramWebServiceSoap</con:interface><con:operation>getTVprogramDateSet</con:operation><con:request name="getTVprogramDateSet - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="1f8c967f-d245-4f91-b38e-319b5b6b10f9"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVprogramDateSet>\r
+         <web:theTVchannelID>18</web:theTVchannelID>\r
+         <!--Optional:-->\r
+         <web:theDate></web:theDate>\r
+         <!--Optional:-->\r
+         <web:userID></web:userID>\r
+      </web:getTVprogramDateSet>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="1d000ea5-86be-496f-8b51-09880c38f49b" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVprogramDateSet"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="2d9d8670-cc62-4e85-95c2-923e80c00a33" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 2" searchProperties="true"><con:settings/><con:testStep type="request" id="8ef2ad74-afad-4f54-b14b-3b96e158b666" name="getTVstationDataSet - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ChinaTVprogramWebServiceSoap</con:interface><con:operation>getTVstationDataSet</con:operation><con:request name="getTVstationDataSet - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="10ce0b1e-bf63-495e-a799-532275dc56a6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:getTVstationDataSet>\r
+         <web:theAreaID>18</web:theAreaID>\r
+      </web:getTVstationDataSet>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="2a8e2ebf-9f45-43a8-a3e6-55cc64e82141" name="SOAP Response"/><con:assertion type="Simple Contains" id="399b9916-e719-4f06-835f-df1bb3d9a87b" name="Contains"><con:configuration><token>长沙电视台</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVstationDataSet"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="374f8405-1d14-48fb-9c59-5ac6f44ecba6"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>cctv</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>getTVstationDataSet - Request 1</con:sourceStep><con:sourcePath>declare namespace diffgr="urn:schemas-microsoft-com:xml-diffgram-v1";
+//diffgr:diffgram/Station/TvStation[2]/tvStationID[1]</con:sourcePath><con:targetType>Request</con:targetType><con:targetStep>getTVchannelDataSet - Request 1</con:targetStep><con:targetPath>declare namespace web="http://WebXml.com.cn/";
+//web:getTVchannelDataSet/web:theTVstationID[1]</con:targetPath><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="request" id="d03d2234-27f8-4b61-9b5d-f394549ec30e" name="getTVchannelDataSet - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ChinaTVprogramWebServiceSoap</con:interface><con:operation>getTVchannelDataSet</con:operation><con:request name="getTVchannelDataSet - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="6a38cf01-53b5-41e4-a932-892751eeab7d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getTVchannelDataSet>
+         <web:theTVstationID>95</web:theTVstationID>
+      </web:getTVchannelDataSet>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="38501a30-2e39-4882-a7f6-1e51526b34f8" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVchannelDataSet"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer 1" id="8ff6ebeb-afe0-4f48-8fe7-c88678de4ae3"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>cctv</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>getTVchannelDataSet - Request 1</con:sourceStep><con:sourcePath>declare namespace diffgr="urn:schemas-microsoft-com:xml-diffgram-v1";
+//diffgr:diffgram/Channe/TvChanne[4]/tvChannelID[1]</con:sourcePath><con:targetType>Request</con:targetType><con:targetPath>declare namespace web="http://WebXml.com.cn/";
+//web:getTVprogramDateSet/web:theTVchannelID[1]</con:targetPath><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="request" id="85fcf546-3da4-4b6e-a724-2c652422aed8" name="getTVprogramDateSet - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ChinaTVprogramWebServiceSoap</con:interface><con:operation>getTVprogramDateSet</con:operation><con:request name="getTVprogramDateSet - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="d445a2b6-f77d-47b0-ad48-346e8cee3f9b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://WebXml.com.cn/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:getTVprogramDateSet>
+         <web:theTVchannelID>283</web:theTVchannelID>
+         <!--Optional:-->
+         <web:theDate/>
+         <!--Optional:-->
+         <web:userID/>
+      </web:getTVprogramDateSet>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="b048d394-1693-404f-b208-371d9c2a0d59" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://WebXml.com.cn/getTVprogramDateSet"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:loadTest id="bafca8b0-84ab-40da-8cee-51704a94d195" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>100</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>180</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>

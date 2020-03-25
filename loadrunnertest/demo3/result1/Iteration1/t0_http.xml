@@ -1,7 +1,0 @@
-<?xml-stylesheet href="..\http.xsl" type="text/xsl"?>
-<report vuGenInstallDir="C:\Program Files (x86)\HP\LoadRunner">
-  <http>
-    <request />
-    <response />
-  </http>
-</report>

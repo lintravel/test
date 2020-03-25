@@ -1,9 +1,0 @@
-HTTP/1.1 200 OK
-Server: gunicorn/19.9.0
-Date: Sun, 01 Sep 2019 06:53:42 GMT
-Connection: keep-alive
-Content-Type: application/json
-Content-Length: 115
-Vary: Cookie
-Set-Cookie: session=.eJyVUUtuwyAQvUrKOkRAIE1YddFNT1FRmNgWNnYAx06j3KJ36ZF6jY6dNJW6KwLxePOG-Z1JnyASfSbGuQgpEU0ypEyWxBRAtBBLYqGuu7IN-CRcsZ-FEhvBZHjGgybB-JYyiXvBpZZcK4kScL01uWoDKn4x8o2p6luwp8NhZdsG2coRzfFqikkumBpTKakavKL8KDb0FH2iAMaMSbwJ06lVFwoyO7xcXUNlfTDNlFAKxgMaO5PS0EY3pS_WUm2Qixg_emSKuYTFvq_rB-QTjEh-fXxOuCqCyX2c_7pj5DOiNEfLrYepsq1SPX8HRk92PdIU95wKw4_URZVrvy2H1O7Rs-_c334pynYL_qgl02Jq6TSOW_63OQxgS5Pv9Vyumtd_hb58A7ColxQ.XWtq9g.kMYtQs508tC5FdFDe_MAtMlgT-A; HttpOnly; Path=/
-

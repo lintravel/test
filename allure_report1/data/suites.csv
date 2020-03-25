@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Sep 03 20:05:52 CST 2019","Tue Sep 03 20:05:52 CST 2019","0","pytestdemo1","test_demo1","","","","test_error",""
-"passed","Tue Sep 03 20:05:52 CST 2019","Tue Sep 03 20:05:52 CST 2019","0","pytestdemo1","test_demo1","","","","test_istrue",""
-"passed","Tue Sep 03 20:05:52 CST 2019","Tue Sep 03 20:05:52 CST 2019","0","pytestdemo1","test_demo1","","","","test_add",""

@@ -1,5 +1,6 @@
+#unittest断言
 import unittest
-@unittest.skip("pass")
+
 class TestCaseDemo1(unittest.TestCase):
 
     def test_01_equal(self):

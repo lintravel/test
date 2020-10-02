@@ -1,7 +1,7 @@
 import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
-@unittest.skip("pass")
+
 class TestCaseLifeCycle(unittest.TestCase):
 
     @classmethod
@@ -16,25 +16,6 @@ class TestCaseLifeCycle(unittest.TestCase):
         print("setup")
     def tearDown(self):
         print("teardown")
-    
-    def test_01_shop2(self):
-        '''
-        这是第一个测试用例。。。
-        '''
-        self.driver.get("http://132.232.44.158:8080/")
-
-        baicaitai=('xpath','//*[@id="J_wrap_pro_add"]/li[3]/div[1]/a/img')
-        ee=WebDriverWait(self.driver,10).until(lambda s : s.find_element(*baicaitai))
-        ee.click()
-        jiagou=('id','J_mer_saleTag')
-        e1=WebDriverWait(self.driver,10).until(lambda s : s.find_element(*jiagou))
-        e1.click()
-        bag=('link text',"购物袋")
-        e2=WebDriverWait(self.driver,10).until(lambda s : s.find_element(*bag))
-        e2.click()
-        baicaitai1=('xpath','//*[@id="cart_item_3"]/td[1]/a/img')
-               
-        self.assertTrue(self.is_element_exist(self.driver,baicaitai1))
     
     def test_02_shop1(self):
         '''

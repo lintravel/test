@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 import unittest
-@unittest.skip("pass")
+
 class TestCaseShop(unittest.TestCase):
 
     def is_element_exist(self,driver,locator):        

@@ -1,11 +1,11 @@
 import unittest
 from selenium import webdriver
-from po.baiduindex import Baiduindex
-@unittest.skip("PASS")
+
+
 class TestCaseBaiduindex(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.driver=webdriver.Chrome(executable_path="E:\\seleniumstdy\\chromedriver.exe")
+        cls.driver=webdriver.Chrome(executable_path="D:\\codes\\drivers\\msedgedriver.exe")
         cls.driver.maximize_window()
     @classmethod
     def tearDownClass(cls):
